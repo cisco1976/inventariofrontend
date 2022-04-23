@@ -1,0 +1,21 @@
+[{
+        "name": "Usuarios",
+        "route": "/dashboard/usuarios",
+        "icon": "people"
+    },
+    {
+        "name": "Productos",
+        "route": "/dashboard/producto",
+        "icon": "production_quantity_limits"
+    },
+    {
+        "name": "Inventario",
+        "route": "/dashboard/inventario",
+        "icon": "inventory"
+    },
+    {
+        "name": "Transferir",
+        "route": "/dashboard/trnsferir",
+        "icon": "move_up"
+    }
+]
