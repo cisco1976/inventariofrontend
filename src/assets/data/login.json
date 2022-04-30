@@ -1,0 +1,37 @@
+{
+    "statusCode": 200,
+    "detail": {
+        "idUser": "1fc14c6d-f724-491d-84c5-ae89f1edbd08",
+        "correo": "oscarodrig96@gmail.com",
+        "firstName": "OSCAR DAVID",
+        "lastName": "RODRIGUEZ SALAS",
+        "numberIdentification": "1014279171",
+        "roles": [{
+            "id": "8af900fa-d9fd-4e1a-81e1-2fe122b5d473",
+            "name": "Super Administrador",
+            "description": "Tiene acceso a todas las opciones del menú."
+        }],
+        "vistas": [{
+                "name": "Usuarios",
+                "route": "/dashboard/usuarios",
+                "icon": "people"
+            },
+            {
+                "name": "Productos",
+                "route": "/dashboard/producto",
+                "icon": "production_quantity_limits"
+            },
+            {
+                "name": "Inventario",
+                "route": "/dashboard/inventario",
+                "icon": "inventory"
+            },
+            {
+                "name": "Transferir",
+                "route": "/dashboard/trnsferir",
+                "icon": "move_up"
+            }
+        ]
+    },
+    "tokenId": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Im9zY2Fyb2RyaWc5NkBnbWFpbC5jb20iLCJuYmYiOjE2NTEyNzczMDIsImV4cCI6MTY1MTI3OTEwMiwiaWF0IjoxNjUxMjc3MzAyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjQ0Mzk2IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo0NDM5NiJ9.W9jJ0SLow0a6r53BzCIYitgAxhmq9s_zpJB8n5t1pHQ"
+}

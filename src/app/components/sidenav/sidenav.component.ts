@@ -1,7 +1,7 @@
 import { ChangeDetectorRef,Component, OnInit } from '@angular/core';
 import { MediaMatcher } from '@angular/cdk/layout';
-import { MenuService } from '../../services/menu.service';
-import { Menu } from "../../interfaces/menu";
+import { LoginService } from '../../services/login.service';
+import { Menu } from '../../interfaces/menu';
 import { Router } from '@angular/router';
 
 @Component({
@@ -17,8 +17,7 @@ export class SidenavComponent implements OnInit {
 
   constructor(changeDetectorRef: ChangeDetectorRef,
               media: MediaMatcher,
-              private _menuService: MenuService,
-              private router: Router) {
+              private _logout:LoginService) {
     this.mobileQuery = media.matchMedia('(max-width: 600px)');
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
     this.mobileQuery.addListener(this._mobileQueryListener);
@@ -35,13 +34,11 @@ export class SidenavComponent implements OnInit {
   }
 
   cargarMenu(){
-    this._menuService.getMenu().subscribe(c => {
-      this.menu = c;
-    })
+    this.menu = JSON.parse(localStorage.getItem('vistas') || "");
   }
 
   logout(){
-    this.router.navigate(['logout']);
+    this._logout.finalizarSesion();
   }
 
 }

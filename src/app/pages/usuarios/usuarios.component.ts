@@ -22,6 +22,7 @@ export class UsuariosComponent implements OnInit {
     {position: 8, nombre: 'Oxygen',  nIdentificacion: '102343483832', rol: 'O'},
     {position: 9, nombre: 'Fluorine',  nIdentificacion: '102343483832', rol: 'F'},
     {position: 10, nombre: 'Neon', nIdentificacion: '1014279171', rol: 'Ne'},
+    {position: 11, nombre: 'jaja', nIdentificacion: '1023303220', rol: 'ja'},
   ];
 
   displayedColumns: string[] = ['position','nombre', 'nIdentificacion', 'rol','acciones'];
