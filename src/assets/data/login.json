@@ -13,22 +13,22 @@
         }],
         "vistas": [{
                 "name": "Usuarios",
-                "route": "/dashboard/usuarios",
+                "route": "/home/usuarios",
                 "icon": "people"
             },
             {
                 "name": "Productos",
-                "route": "/dashboard/producto",
+                "route": "/home/productos",
                 "icon": "production_quantity_limits"
             },
             {
                 "name": "Inventario",
-                "route": "/dashboard/inventario",
+                "route": "/home/inventario",
                 "icon": "inventory"
             },
             {
                 "name": "Transferir",
-                "route": "/dashboard/trnsferir",
+                "route": "/home/trnsferir",
                 "icon": "move_up"
             }
         ]

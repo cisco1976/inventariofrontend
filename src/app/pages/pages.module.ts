@@ -6,6 +6,9 @@ import { MaterialModule } from '../material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ComponentsModule } from '../components/components.module';
 import { UsuariosComponent } from './usuarios/usuarios.component';
+import { HomeComponent } from './home/home.component';
+import { ProductosComponent } from './productos/productos.component';
+import { InventarioComponent } from './inventario/inventario.component';
 
 
 
@@ -13,7 +16,10 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
   declarations: [
     LoginComponent,
     DashboardComponent,
-    UsuariosComponent
+    UsuariosComponent,
+    HomeComponent,
+    ProductosComponent,
+    InventarioComponent
   ],
   imports: [
     CommonModule,
