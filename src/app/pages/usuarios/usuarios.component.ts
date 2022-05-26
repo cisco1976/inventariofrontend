@@ -14,7 +14,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 export class UsuariosComponent implements OnInit {
   listUsuarios: usuario[]= [];
   dataSource = new MatTableDataSource<any>();
-  displayedColumns: string[] = ['position','nombre', 'nIdentificacion', 'rol','acciones'];
+  displayedColumns: string[] = ['position','nombre', 'apellido','nIdentificacion', 'rol','acciones'];
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
 
