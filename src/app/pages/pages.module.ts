@@ -9,6 +9,8 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
 import { HomeComponent } from './home/home.component';
 import { ProductosComponent } from './productos/productos.component';
 import { InventarioComponent } from './inventario/inventario.component';
+import { CrearUsuarioComponent } from './usuarios/crear-usuario/crear-usuario.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -19,14 +21,16 @@ import { InventarioComponent } from './inventario/inventario.component';
     UsuariosComponent,
     HomeComponent,
     ProductosComponent,
-    InventarioComponent
+    InventarioComponent,
+    CrearUsuarioComponent
   ],
   imports: [
     CommonModule,
     MaterialModule,
     FormsModule,
     ReactiveFormsModule,
-    ComponentsModule
+    ComponentsModule,
+    RouterModule
   ]
 })
 export class PagesModule { }

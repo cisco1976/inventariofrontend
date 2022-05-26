@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { observable, Observable } from 'rxjs';
 import { CreditsResponse, Login } from '../interfaces/login';
 import { Router } from '@angular/router';
 
@@ -18,7 +18,9 @@ export class LoginService {
         // const httpOptions = new HttpHeaders().append('Content-Type', 'application/json; charset=UTF-8');
         // const url = `${this.urlBase}/api/Usuarios/ActualizarUsuario`;
         // return this.http.post<CreditsResponse>(url,new Date().toISOString(),{headers: httpOptions});
-        return this.http.get<CreditsResponse>(this.urlBase);
+        
+          return this.http.get<CreditsResponse>(this.urlBase);
+        
   }
 
 

@@ -16,6 +16,10 @@ import {MatTableModule} from '@angular/material/table';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatSortModule} from '@angular/material/sort';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatSelectModule} from '@angular/material/select';
+
 
 
 
@@ -24,6 +28,9 @@ import {MatSortModule} from '@angular/material/sort';
 @NgModule({
   declarations: [],
   imports: [
+    MatSelectModule,
+    MatGridListModule,
+    MatCardModule,
     CommonModule,
     MatSliderModule,
     MatFormFieldModule,
@@ -43,6 +50,9 @@ import {MatSortModule} from '@angular/material/sort';
     MatSortModule
   ],
   exports:[
+    MatSelectModule,
+    MatGridListModule,
+    MatCardModule,
     MatSliderModule,
     MatFormFieldModule,
     MatInputModule,

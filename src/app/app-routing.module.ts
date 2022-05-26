@@ -6,6 +6,7 @@ import { UsuariosComponent } from './pages/usuarios/usuarios.component';
 import { HomeComponent } from "./pages/home/home.component"
 import { ProductosComponent } from './pages/productos/productos.component';
 import { InventarioComponent } from './pages/inventario/inventario.component';
+import { CrearUsuarioComponent } from './pages/usuarios/crear-usuario/crear-usuario.component';
 
 
 
@@ -17,6 +18,7 @@ const routes: Routes = [
     {path: 'usuarios', component: UsuariosComponent},
     {path: 'productos', component: ProductosComponent},
     {path: 'inventario', component: InventarioComponent},
+    {path: 'crear-usuario', component: CrearUsuarioComponent}
   ]},
   {path: '**', redirectTo: 'login'}
 ];

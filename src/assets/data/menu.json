@@ -15,7 +15,7 @@
     },
     {
         "name": "Transferir",
-        "route": "/dashboard/trnsferir",
+        "route": "/dashboard/transferir",
         "icon": "move_up"
     }
 ]
